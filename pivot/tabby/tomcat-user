@@ -1,0 +1,4 @@
+#!/bin/bash
+
+shell/nc-tomcat
+nc -lvnp 4444

