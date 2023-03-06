@@ -1,0 +1,6 @@
+#!/bin/bash
+
+user=mynameis
+password=mynameis
+
+curl -X POST http://internal-01.bart.htb/simple_chat/register.php -d "uname=$user&passwd=$password" 

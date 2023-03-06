@@ -1,0 +1,15 @@
+===============================================================
+Gobuster v3.4
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://internal-01.bart.htb
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.4
+[+] Timeout:                 10s
+===============================================================
+2023/01/27 08:07:17 Starting gobuster in directory enumeration mode
+===============================================================
+
